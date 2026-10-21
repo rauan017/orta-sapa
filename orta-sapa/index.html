@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ORTA SAPA | Орта сапасы мониторингі</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<aside class="side">
+<div class="brand"><span class="mark"></span><div><b>ORTA SAPA</b><small>Орта сапасы — баланың болашағы</small></div></div>
+<nav id="nav">
+<button data-tab="dash">Басқару тақтасы</button>
+<button data-tab="ecers">ECERS-3</button>
+<button data-tab="prog">Үлгілік бағдарлама</button>
+<button data-tab="comp">Салыстыру</button>
+<button data-tab="chart">Диаграмма және мониторинг</button>
+<button data-tab="hist">Мониторинг тарихы</button>
+</nav>
+<p class="nt">Негіз: «ECERS-3 шкалаларын қолдана отырып ... әдістемелік ұсынымдар» (2022). Бұл сайт мемлекеттік сертификатталған бағалау құралы емес.</p>
+</aside>
+<main>
+<div class="notice"><b>Таныстыруға арналған прототип.</b> Деректер тек осы браузерде сақталады; мұнда шынайы аккаунт, бұлттағы дерекқор, қауіпсіз рөлдік рұқсат және ECERS-3 индикаторларының толық ресми мәтіні жоқ. ECERS-3 балдары — ресми индикаторлық алгоритм іске асырылғанға дейін алдын ала енгізілетін мәндер.</div>
+<form id="ctx" onsubmit="return false"></form>
+<div id="view"></div>
+</main>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
